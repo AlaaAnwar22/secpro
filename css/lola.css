@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/Untitled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.overlay1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.left{
+    color: white;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   transform: translate(-10%,-10%);
+   font-size: larger;
+}
+.right{
+    float: right;
+    list-style: none;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    transform: translate(-30%,-30%);
+}
+.first{
+    padding: 10px;
+}
+.first1{
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    
+}
+a:hover{
+    color: brown;
+}
+ul li{
+    display: inline-block;
+}
+.info1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title1{
+    font-size: xx-large;
+    color: white;
+}
+.words1{
+    font-size: larger;
+    color: white;
+    padding-top: 30px;
+}
+.wo1{
+    font-size: large;
+    color: white;
+    padding-top: 50px;
+    margin-left: 80px;
+}
+.btn1{
+    margin-top: 40px;
+    background-color: orangered;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+    color: white;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.background2{
+    width: 100%;
+    height: 70vh;
+    background-color: orangered;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.ti2{
+    text-align: center;
+    padding-top: 50px;
+}
+.line2{
+    width: 70px;
+    height: 5px;
+    background-color: black;
+    margin-left: 700px;
+    margin-top: 20px;
+   
+}
+.words2{
+    font-size: larger;
+    color: white;
+    padding-top: 40px;
+    margin-left: 300px;
+    letter-spacing: 2px;
+     word-spacing: 2px;
+}
+.wo2{
+    font-size: larger;
+    color: white;
+    padding-top: 50px;
+    margin-left: 300px;
+}
+.bt2{
+    background-color: white;
+    color: black;
+    margin-left: 500px;
+    font-size: larger;
+    cursor: pointer;
+}
+.background3{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.ti3{
+    color: orangered;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 20px;
+    
+}
+.logo3{
+    color: orangered;
+    font-size: larger;
+    text-align: center;
+    padding-top: 5px;
+}
+.title3{
+    font-size: x-small;
+    color: black;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+.word3{
+    font-size: xx-small;
+    color: black;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.div1{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.list3{
+    list-style: none;
+}
+.background4{
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img4{
+    width: 400px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+   
+}
+.im4{
+    width: 400px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.background5{
+    width: 100%;
+    height: 50vh;
+    background-color: gray;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.title5{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 100px;
+}
+.bt5{
+  position: absolute;
+  left: 180px;
+  cursor: pointer;
+}
+.background6{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+.title6{
+    color: black;
+}
+.wo6{
+    font-size: larger;
+    padding-top: 40px;
+     text-align: center;
+}
+.word6{
+    padding-top: 20px;
+}
+.logo6{
+    text-align: center;
+    font-size: larger;
+}
+.w6{
+    font-size: xx-small;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.div6{
+    text-align: center;
+    margin-top: 60px;
+}
+.end{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    background-color: gray;
+}
+.en{
+    text-align: center;
+    padding-top: 20px;
+}
